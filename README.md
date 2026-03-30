@@ -1,52 +1,38 @@
-# 🃏 Blackjack Java Game
+# Blackjack Java Game
 
-This is a simple Blackjack game built in Java using object-oriented programming (OOP).
+This is a simple Blackjack game I built in Java as part of my coursework.
 
-## 🎯 Description
-The program simulates a Blackjack game where a player plays against the house (dealer).  
-Cards are drawn randomly, and the player chooses whether to take another card or stop.
+## Description
+The program simulates a basic Blackjack game where the player plays against the house. Cards are drawn randomly, and the user decides whether to take another card or stop.
 
----
+## Features
+- 52-card deck
+- Random card selection
+- Player vs house gameplay
+- Console input (y/n)
+- Score calculation with proper Ace handling
+- One hidden house card at the start
 
-## 🚀 Features
-- Deck of 52 cards
-- Random card dealing
-- Player vs House gameplay
-- Console-based interaction
-- Score calculation with Ace handling (1 or 11)
-- Hidden card for the house (like real Blackjack)
+## Files
+- Card.java – represents a card
+- CardPile.java – represents a deck or hand
+- BlackjackGame.java – main game logic
+- SimpleUI.java – handles user input/output
+- UserInterface.java – interface for the UI
 
----
+## How to run
+Run `BlackjackGame.java` and follow the instructions in the console.
 
-## 🧱 Project Structure
+## Example
+House holds:
+?
+7 of Hearts
 
-- `Card.java` → Represents a single card (rank, suit, face-up/down)
-- `CardPile.java` → Represents a deck or hand of cards
-- `BlackjackGame.java` → Main game logic and flow
-- `SimpleUI.java` → Handles user interaction (input/output)
-- `UserInterface.java` → Interface for UI implementation
+You hold:
+10 of Clubs
+Ace of Spades
 
----
+Another card? (y/n):
 
-## ▶️ How to Run
-
-1. Open the project in NetBeans (or any Java IDE)
-2. Run:
-
-
-3. Follow the prompts in the console:
-
-
----
-
-## 🧠 Concepts Used
-- Object-Oriented Programming (OOP)
-- Classes and Objects
-- Interfaces
-- ArrayList
-- Random
-- User input with Scanner
-
----
-
-## 📝 Example Output
+## Notes
+This project helped me practice object-oriented programming, working with multiple classes, and basic game logic in Java.
