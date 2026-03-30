@@ -1,4 +1,3 @@
-package coe318.lab5;
 
 public class Card implements Comparable {
   private final int cardRank;
