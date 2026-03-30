@@ -3,7 +3,6 @@
  *
  * @author 
  */
-package coe318.lab5;
 import java.util.ArrayList;
 import java.util.Random;
 
