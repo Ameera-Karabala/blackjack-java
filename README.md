@@ -1,38 +1,15 @@
-# Blackjack Java Game
+Blackjack Java Game
 
-This is a simple Blackjack game I built in Java as part of my coursework.
+I made this as a simple Blackjack game in Java. It’s a console-based program where you play against the house and decide if you want another card or not.
 
-## Description
-The program simulates a basic Blackjack game where the player plays against the house. Cards are drawn randomly, and the user decides whether to take another card or stop.
+The cards are generated randomly, and the game keeps track of scores. Face cards count as 10, and Aces can count as 11 or 1 depending on the total.
 
-## Features
-- 52-card deck
-- Random card selection
-- Player vs house gameplay
-- Console input (y/n)
-- Score calculation with proper Ace handling
-- One hidden house card at the start
+The project is split into a few classes:
+Card.java handles individual cards,
+CardPile.java is used for the deck and hands,
+BlackjackGame.java controls the game flow,
+and SimpleUI.java deals with user input and output.
 
-## Files
-- Card.java – represents a card
-- CardPile.java – represents a deck or hand
-- BlackjackGame.java – main game logic
-- SimpleUI.java – handles user input/output
-- UserInterface.java – interface for the UI
+To run it, just run BlackjackGame.java and follow the prompts in the console.
 
-## How to run
-Run `BlackjackGame.java` and follow the instructions in the console.
-
-## Example
-House holds:
-?
-7 of Hearts
-
-You hold:
-10 of Clubs
-Ace of Spades
-
-Another card? (y/n):
-
-## Notes
-This project helped me practice object-oriented programming, working with multiple classes, and basic game logic in Java.
+This helped me practice working with multiple classes, using interfaces, and organizing a program using object-oriented concepts.
